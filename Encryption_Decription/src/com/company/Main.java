@@ -28,7 +28,8 @@ public class Main {
                 deccrpt.decryption(text,key);
                 break;
             default:
-                System.out.println("Wybrano nie poprawną wartość");
+                System.out.println("Incorrect value!");
+                break;
         }
     }
 }
